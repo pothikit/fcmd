@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../../assets/logo.png"
 import { Link, NavLink } from 'react-router-dom'
-import "./navbar.css"
 import { IoIosArrowDown } from "react-icons/io";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { GrClose } from "react-icons/gr";
@@ -15,52 +14,55 @@ function Navbar() {
                     <div className="logo">
                         <img src={logo} alt="FCMD" className='max-w-[160px]' />
                     </div>
-                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary lg:bg-transparent top-20 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
+                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full lg:w-auto lg:bg-transparent top-20 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
                         <li>
-                            <NavLink to="/" className={`${({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                                } md:text-lg capitalize`}>home
+                            <NavLink to="/" className={`md:text-lg capitalize`}>home
                             </NavLink>
                         </li>
                         {/* event menu */}
-                        <li className='relative group'>
-                            <NavLink to="/" className={`${({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                                } md:text-lg capitalize flex items-center gap-1 md:gap-2 `}>
+                        <li className='relative group border-b lg:border-0'>
+                            <NavLink to="/" className={`md:text-lg capitalize flex items-center gap-1 md:gap-2 `}>
                                 <span>Event</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute top-[500%] hidden group-hover:block group-hover:top-full duration-100 lg:-left-2/3 pt-5 z-0'>
-                                <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 lg:bg-slate-100 bg-slate-900 z-50 pt-3'>
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[70%] lg:-left-2/3 pt-5 z-50 md:z-0'>
+                                <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
                                     <Link to="/">
                                         Upcomming Event
                                     </Link>
                                     <Link to="/">
                                         Last Event
                                     </Link>
-                                    <div className='w-8 h-8 absolute top-2 lg:bg-slate-100 bg-primary rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
+                                    <div className='w-8 h-8 absolute top-2 bg-slate-100 rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <NavLink to="/" className={`${({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                                } md:text-lg capitalize`}>
+                            <NavLink to="/" className={`md:text-lg capitalize`}>
                                 Photo Gallery
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/" className={`${({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                                } md:text-lg capitalize relative flex items-center gap-1 md:gap-2`}>
+                        {/* commounity */}
+                        <li className='relative group border-b lg:border-0'>
+                            <NavLink to="/" className={`md:text-lg capitalize flex items-center gap-1 md:gap-2 `}>
                                 <span>Community Contributor</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[70%] lg:left-[20%] pt-5 z-50 md:z-0'>
+                                <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
+                                    <Link to="/">
+                                        Commounity1
+                                    </Link>
+                                    <Link to="/">
+                                        Commounity1
+                                    </Link>
+                                    <div className='w-8 h-8 absolute top-2 bg-slate-100 rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
+                                </div>
+                            </div>
                         </li>
+
                         <li>
-                            <NavLink to="/" className={`${({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                                } md:text-lg capitalize`}>Blog</NavLink>
+                            <NavLink to="/" className={` md:text-lg capitalize`}>Blog</NavLink>
                         </li>
                     </ul>
                     <div className='space-x-5 mr-2 flex items-center'>
