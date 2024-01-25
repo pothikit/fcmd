@@ -14,7 +14,7 @@ function Navbar() {
                     <div className="logo">
                         <img src={logo} alt="FCMD" className='max-w-[160px]' />
                     </div>
-                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full lg:w-auto lg:bg-transparent top-20 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
+                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full z-50 lg:w-auto lg:bg-transparent top-20 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
                         <li>
                             <NavLink to="/" className={`md:text-lg capitalize`}>home
                             </NavLink>
