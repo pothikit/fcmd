@@ -1,7 +1,7 @@
 import React, { } from 'react'
-import Pagetitle from '../../../components/PageTitle/PageTitle'
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
+import Pagetitle from './../../../components/PageTitle/Pagetitle';
 
 function Activities() {
     const { data: activities, } = useQuery({
@@ -12,14 +12,7 @@ function Activities() {
             })
     })
 
-    console.log(activities)
-    // const [activities, setActivites] = useState([])
-    // useEffect(() => {
-    //     fetch("database.json")
-    //         .then(res => res.json())
-    //         .then(data => setActivites(data.lastActivities))
-    // }, [])
-    // console.log(activities)
+
     return (
         <section className='py-20'>
             <div className="container mx-auto">
