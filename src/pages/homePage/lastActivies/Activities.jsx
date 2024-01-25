@@ -1,9 +1,11 @@
 import React from 'react'
-import Pagetitle from '../../../components/PageTitle/Pagetitle'
+import Pagetitle from '../../../components/pageTitle/Pagetitle'
 // import { useQuery } from '@tanstack/react-query'
 
 function Activities() {
-    // const { data: activities } = useQuery()
+    // const { data: activities } = useQuery({
+    //     queryKey: ["activity"]
+    // })
 
     return (
         <section className='py-20'>
