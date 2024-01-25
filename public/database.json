@@ -2,37 +2,43 @@
     "lastActivities": [
         {
             "id": 1,
-            "icon": "../src/assets/icons/blanket.svg",
+            "icon": "./src/assets/icons/Blankets.svg",
+            "iconBg": "#EAEBFF",
             "title": "Distribution of Blankets",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 2,
-            "icon": "../src/assets/icons/gift.svg",
+            "icon": "./src/assets/icons/gift.svg",
+            "iconBg": "#FFEBEE",
             "title": "Distribution of Eid Gifts",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 3,
-            "icon": "../src/assets/icons/blood.svg",
+            "icon": "./src/assets/icons/blood.svg",
+            "iconBg": "#FFEBEE",
             "title": "Blood Donation",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 4,
-            "icon": "../src/assets/icons/picnic.svg",
+            "icon": "./src/assets/icons/picnic.svg",
+            "iconBg": "#E8F5E9",
             "title": "Picnic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 5,
-            "icon": "../src/assets/icons/celibretion.svg",
+            "icon": "./src/assets/icons/celebration.svg",
+            "iconBg": "#E8F5E9",
             "title": "Freelancer Celebration",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 5,
-            "icon": "../src/assets/icons/event.svg",
+            "icon": "./src/assets/icons/event.svg",
+            "iconBg": "#E8F5E9",
             "title": "Event",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         }

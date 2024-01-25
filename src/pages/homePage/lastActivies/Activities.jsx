@@ -23,7 +23,7 @@ function Activities() {
                         {
                             activities?.map((activty, idx) => (
                                 <div key={idx} className='m-2 border rounded-lg p-7 space-y-4 shadow-lg'>
-                                    <img src={activty?.icon} alt={activty?.title} />
+                                    <div className={`rounded-full justify-center size-12 flex items-center`} style={{ background: activty?.iconBg }}><img src={activty?.icon} alt={activty?.title} /></div>
                                     <h3 className='md:text-2xl font-bold'>{activty?.title}</h3>
                                     <p className='md:text-md'>{activty?.description}</p>
                                 </div>
