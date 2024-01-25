@@ -1,7 +1,7 @@
 import React, { } from 'react'
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import Pagetitle from './../../../components/PageTitle/Pagetitle';
+import Pagetitle from './../../../components/pageTitle/Pagetitle';
 
 function Activities() {
     const { data: activities, } = useQuery({
