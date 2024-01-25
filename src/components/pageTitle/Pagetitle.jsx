@@ -10,3 +10,4 @@ function Pagetitle({ pageTitle, coloredTittle, styles }) {
 }
 
 export default Pagetitle
+
