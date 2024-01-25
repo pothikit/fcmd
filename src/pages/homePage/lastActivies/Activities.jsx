@@ -1,5 +1,5 @@
 import React, { } from 'react'
-import Pagetitle from '../../../components/PageTitle/Pagetitle'
+import Pagetitle from '../../../components/PageTitle/PageTitle'
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 

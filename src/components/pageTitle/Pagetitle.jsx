@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Pagetitle({ pageTitle, coloredTittle, styles }) {
+function PageTitle({ pageTitle, coloredTittle, styles }) {
     return (
         <h1 className={`text-2xl md:text-3xl lg:text-4xl font-bold ${styles && styles}`}>
             {pageTitle}
@@ -9,5 +9,5 @@ function Pagetitle({ pageTitle, coloredTittle, styles }) {
     )
 }
 
-export default Pagetitle
+export default PageTitle
 
