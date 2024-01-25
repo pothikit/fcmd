@@ -1,13 +1,24 @@
-import React, { useEffect, useState } from 'react'
+import React, { } from 'react'
 import Pagetitle from '../../../components/PageTitle/Pagetitle'
+import { useQuery } from '@tanstack/react-query';
+import axios from 'axios';
 
 function Activities() {
-    const [activities, setActivites] = useState([])
-    useEffect(() => {
-        fetch("database.json")
-            .then(res => res.json())
-            .then(data => setActivites(data.lastActivities))
-    }, [])
+    const { data: activities, } = useQuery({
+        queryKey: ['activity'],
+        queryFn: () => axios.get("database.json")
+            .then(data => {
+                return data.data.lastActivities
+            })
+    })
+
+    console.log(activities)
+    // const [activities, setActivites] = useState([])
+    // useEffect(() => {
+    //     fetch("database.json")
+    //         .then(res => res.json())
+    //         .then(data => setActivites(data.lastActivities))
+    // }, [])
     // console.log(activities)
     return (
         <section className='py-20'>
