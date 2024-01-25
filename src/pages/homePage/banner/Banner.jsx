@@ -1,5 +1,7 @@
 import React from 'react'
 import bannerImg from "../../../assets/bannerimg.png"
+import sliderbg2 from "../../../assets/sliderbg2.png"
+import slider3 from "../../../assets/slider3.jpg"
 import Buttton from '../../../components/buttons/Buttton'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -35,7 +37,7 @@ function Banner() {
                             </div>
                         </div>
                         <div className='p-4 lg:p-7'>
-                            <img src={bannerImg} alt="bannerImg" />
+                            <img src={sliderbg2} alt="bannerImg" />
                         </div>
                     </div>
                     </SwiperSlide>
@@ -49,7 +51,7 @@ function Banner() {
                             </div>
                         </div>
                         <div className='p-4 lg:p-7'>
-                            <img src={bannerImg} alt="bannerImg" />
+                            <img src={slider3} alt="bannerImg" />
                         </div>
                     </div>
                     </SwiperSlide>
