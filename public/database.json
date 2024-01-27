@@ -51,16 +51,16 @@
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 2,
-            "sponsorsName": "Fluresta",
-            "logo": "../../assets/sponsors/fluresta.png",
+            "id": 3,
+            "sponsorsName": "Hostflue",
+            "logo": "../../assets/sponsors/hostflu.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 3,
-            "sponsorsName": "Fluresta",
-            "logo": "../../assets/sponsors/fluresta.png",
-            "website_url": "https://fluresta.com"
+            "id": 2,
+            "sponsorsName": "Growup It",
+            "logo": "../../assets/sponsors/growupit.png",
+            "website_url": "https://www.growupit.academy"
         },
         {
             "id": 4,

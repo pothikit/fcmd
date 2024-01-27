@@ -12,14 +12,14 @@ const SponsorList = () => {
                 return data.data.sponsorList;
             })
     })
-    console.log(sponsors)
+    // console.log(sponsors)
     return (
         <section className='py-20'>
             <div className="container mx-auto">
                 <PageTitle pageTitle="Last Year" styles="text-center my-16" coloredTittle="Sponsor List"></PageTitle>
-                <div className='grid grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6'>
+                <div className='grid grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6'>
                     {
-                        sponsors?.map((sponsor, idx) => (
+                        sponsors?.slice(0, 15).map((sponsor, idx) => (
                             <Link key={idx} to={`${sponsor?.website_url}`} target="_blank" className='border p-3 md:p-6 lg:p-10 rounded-md group relative overflow-hidden shadow'>
                                 <div className=''>
                                     <img src={sponsor?.logo} alt={sponsor?.sponsorsName} className='w-full' />
