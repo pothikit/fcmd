@@ -51,106 +51,156 @@
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 2,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 3,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 4,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 5,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 6,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 7,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 8,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 9,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 10,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 11,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 12,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 13,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 14,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 15,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 16,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 17,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
         },
         {
-            "id": 1,
+            "id": 18,
             "sponsorsName": "Fluresta",
             "logo": "../../assets/sponsors/fluresta.png",
             "website_url": "https://fluresta.com"
+        }
+    ],
+    "speakers": [
+        {
+            "id": 1,
+            "speakesName": "Atam Smith",
+            "logo": "../../assets/speakers/speaker (1).png",
+            "designation": "Ceo Of Desh company"
+        },
+        {
+            "id": 2,
+            "speakesName": "Marvin McKinney",
+            "logo": "../../assets/speakers/speaker (2).png",
+            "designation": "Binford Ltd."
+        },
+        {
+            "id": 3,
+            "speakesName": "Kristin Watson",
+            "logo": "../../assets/speakers/speaker (3).png",
+            "designation": "Big Kahuna Burger Ltd."
+        },
+        {
+            "id": 4,
+            "speakesName": "Wade Warren",
+            "logo": "../../assets/speakers/speaker (4).png",
+            "designation": "Acme Co."
+        },
+        {
+            "id": 5,
+            "speakesName": "Kristin Watson",
+            "logo": "../../assets/speakers/speaker (5).png",
+            "designation": "Big Kahuna Burger Ltd."
+        },
+        {
+            "id": 6,
+            "speakesName": "Wade Warren",
+            "logo": "../../assets/speakers/speaker (6).png",
+            "designation": "Acme Co."
+        },
+        {
+            "id": 7,
+            "speakesName": "Cody Fisher",
+            "logo": "../../assets/speakers/speaker (7).png",
+            "designation": "Biffco Enterprises Ltd."
+        },
+        {
+            "id": 8,
+            "speakesName": "Floyd Miles",
+            "logo": "../../assets/speakers/speaker (8).png",
+            "designation": "Abstergo Ltd."
         }
     ]
 }
