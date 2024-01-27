@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from './banner/Banner'
 import Activities from './lastActivies/Activities'
 import MyHelmet from '../../shared/navbar/MyHelmet'
-import "../../app.css"
 
 function Home() {
     return (
