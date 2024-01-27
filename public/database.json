@@ -42,5 +42,115 @@
             "title": "Event",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         }
+    ],
+    "sponsorList": [
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        },
+        {
+            "id": 1,
+            "sponsorsName": "Fluresta",
+            "logo": "../../assets/sponsors/fluresta.png",
+            "website_url": "https://fluresta.com"
+        }
     ]
 }
