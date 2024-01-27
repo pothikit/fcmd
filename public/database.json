@@ -2,7 +2,7 @@
     "lastActivities": [
         {
             "id": 1,
-            "icon": "././../public/assets/icons/Blankets.svg",
+            "icon": "../../public/assets/icons/Blankets.svg",
             "iconBg": "#EAEBFF",
             "title": "Distribution of Blankets",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"

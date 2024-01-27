@@ -35,7 +35,7 @@ function Activities() {
                     </div>
                 </div>
                 {/* Unleashing Global Potential */}
-                <div className='py-10 lg:py-20 sm:hidden lg:block'>
+                <div className='py-10 lg:py-20'>
                     <div className='grid grid-cols-2 gap-5 items-center'>
                         <div className='grid grid-cols-2 gap-1 lg:gap-3'>
                             <div>
