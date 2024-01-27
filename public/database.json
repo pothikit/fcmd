@@ -2,42 +2,42 @@
     "lastActivities": [
         {
             "id": 1,
-            "icon": "../public/assets/icons/Blankets.svg",
+            "icon": "././../public/assets/icons/Blankets.svg",
             "iconBg": "#EAEBFF",
             "title": "Distribution of Blankets",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 2,
-            "icon": "../public/assets/icons/gift.svg",
+            "icon": "./../public/assets/icons/gift.svg",
             "iconBg": "#FFEBEE",
             "title": "Distribution of Eid Gifts",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 3,
-            "icon": "../public/assets/icons/blood.svg",
+            "icon": "./../public/assets/icons/blood.svg",
             "iconBg": "#FFEBEE",
             "title": "Blood Donation",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 4,
-            "icon": "../public/assets/icons/picnic.svg",
+            "icon": "./../public/assets/icons/picnic.svg",
             "iconBg": "#E8F5E9",
             "title": "Picnic",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 5,
-            "icon": "../public/assets/icons/celebration.svg",
+            "icon": "./../public/assets/icons/celebration.svg",
             "iconBg": "#E8F5E9",
             "title": "Freelancer Celebration",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
         },
         {
             "id": 5,
-            "icon": "../public/assets/icons/event.svg",
+            "icon": "./../public/assets/icons/event.svg",
             "iconBg": "#E8F5E9",
             "title": "Event",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros e"
