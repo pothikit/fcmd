@@ -157,49 +157,49 @@
         {
             "id": 1,
             "speakesName": "Atam Smith",
-            "logo": "../../assets/speakers/speaker (1).png",
+            "speake_img": "../../assets/speakers/speaker (1).png",
             "designation": "Ceo Of Desh company"
         },
         {
             "id": 2,
             "speakesName": "Marvin McKinney",
-            "logo": "../../assets/speakers/speaker (2).png",
+            "speake_img": "../../assets/speakers/speaker (2).png",
             "designation": "Binford Ltd."
         },
         {
             "id": 3,
             "speakesName": "Kristin Watson",
-            "logo": "../../assets/speakers/speaker (3).png",
+            "speake_img": "../../assets/speakers/speaker (3).png",
             "designation": "Big Kahuna Burger Ltd."
         },
         {
             "id": 4,
             "speakesName": "Wade Warren",
-            "logo": "../../assets/speakers/speaker (4).png",
+            "speake_img": "../../assets/speakers/speaker (4).png",
             "designation": "Acme Co."
         },
         {
             "id": 5,
             "speakesName": "Kristin Watson",
-            "logo": "../../assets/speakers/speaker (5).png",
+            "speake_img": "../../assets/speakers/speaker (5).png",
             "designation": "Big Kahuna Burger Ltd."
         },
         {
             "id": 6,
             "speakesName": "Wade Warren",
-            "logo": "../../assets/speakers/speaker (6).png",
+            "speake_img": "../../assets/speakers/speaker (6).png",
             "designation": "Acme Co."
         },
         {
             "id": 7,
             "speakesName": "Cody Fisher",
-            "logo": "../../assets/speakers/speaker (7).png",
+            "speake_img": "../../assets/speakers/speaker (7).png",
             "designation": "Biffco Enterprises Ltd."
         },
         {
             "id": 8,
             "speakesName": "Floyd Miles",
-            "logo": "../../assets/speakers/speaker (8).png",
+            "speake_img": "../../assets/speakers/speaker (8).png",
             "designation": "Abstergo Ltd."
         }
     ]

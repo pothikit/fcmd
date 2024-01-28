@@ -3,6 +3,7 @@ import Banner from './banner/Banner'
 import Activities from './lastActivies/Activities'
 import MyHelmet from '../../shared/navbar/MyHelmet'
 import SponsorList from './sponsorList/SponsorList'
+import Speakers from './speakers/Speakers'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                 <Banner></Banner>
                 <Activities></Activities>
                 <SponsorList></SponsorList>
+                <Speakers></Speakers>
             </main>
         </>
     )
