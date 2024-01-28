@@ -1,5 +1,5 @@
 import React from 'react'
-import PageTitle from '../../../components/pageTitle/Pagetitle'
+import PageTitle from '../../../components/sectionTitle/SectionTitle'
 import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 import { MdOutlineArrowBackIos } from "react-icons/md";
@@ -16,7 +16,7 @@ function Speakers() {
     return (
         <section className='my-20'>
             <div className="container mx-auto">
-                <PageTitle pageTitle="Last Year" coloredTittle="Speaker List" styles="text-center py-10"></PageTitle>
+                <PageTitle sectionTitle="Last Year" coloredTittle="Speaker List" styles="text-center py-10"></PageTitle>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-7'>
                     {
                         speaker?.map((speaker, idx) => (

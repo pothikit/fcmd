@@ -202,5 +202,71 @@
             "speake_img": "../../assets/speakers/speaker (8).png",
             "designation": "Abstergo Ltd."
         }
+    ],
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog1.png",
+            "category": "category",
+            "time": "2164741",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 2,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog2.png",
+            "category": "category",
+            "time": "321166",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 3,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog1.png",
+            "category": "category",
+            "time": "962543",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 4,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog3.png",
+            "category": "category",
+            "time": "79615",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 5,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog2.png",
+            "category": "category",
+            "time": "66463",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 6,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog3.png",
+            "category": "category",
+            "time": "325935",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 7,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog2.png",
+            "category": "category",
+            "time": "6564",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        },
+        {
+            "id": 8,
+            "title": "Blog title heading will go here",
+            "blog_img": "../../assets/blog/blog1.png",
+            "category": "category",
+            "time": "12544664651112121",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
+        }
     ]
 }

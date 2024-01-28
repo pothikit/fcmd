@@ -4,6 +4,7 @@ import Activities from './lastActivies/Activities'
 import MyHelmet from '../../shared/navbar/MyHelmet'
 import SponsorList from './sponsorList/SponsorList'
 import Speakers from './speakers/Speakers'
+import Blogs from './blogs/Blogs'
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
                 <Activities></Activities>
                 <SponsorList></SponsorList>
                 <Speakers></Speakers>
+                <Blogs></Blogs>
             </main>
         </>
     )
