@@ -18,7 +18,7 @@ function Footer() {
             })
     })
     return (
-        <section className='pt-20 bg-primary px-4 lg:px-0'>
+        <section className='pt-20 bg-primary px-4 lg:px-0 mt-10'>
             <div className="container mx-auto">
                 <div className='flex text-white lg:gap-5 flex-col lg:flex-row gap-20 items-start justify-center'>
                     <div className="lg:w-5/12 w-full space-y-12">
@@ -56,9 +56,9 @@ function Footer() {
                         </div>
                         <div className="w-full md:w-auto">
                             <h2 className='text-sm font-bold mb-5'>Stay up to date</h2>
-                            <form action="" className='flex'>
-                                <input type="email" placeholder='Enter your email' className='w-fullw rounded-lg p-2 mr-2 bg-transparent text-white border outline-none placeholder:text-white' />
-                                <input type="submit" value="Subscribe" className='py-2 px-3 bg-white text-primary rounded-lg' />
+                            <form action="" className='flex flex-wrap sm:flex-nowrap gap-2'>
+                                <input type="email" placeholder='Enter your email' className='w-fullw rounded-lg p-2 bg-transparent text-white border outline-none placeholder:text-white' />
+                                <input type="submit" value="Subscribe" className='py-2 px-2 sm:px-3 bg-white text-primary rounded-lg' />
                             </form>
                             <div className='pt-10'>
                                 <h3>Web Contributor</h3>
