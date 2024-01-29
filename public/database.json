@@ -209,6 +209,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog1.png",
             "category": "category",
+            "readingTime": 5,
             "time": "2164741",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -217,6 +218,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog2.png",
             "category": "category",
+            "readingTime": 5,
             "time": "321166",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -225,6 +227,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog1.png",
             "category": "category",
+            "readingTime": 5,
             "time": "962543",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -233,6 +236,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog3.png",
             "category": "category",
+            "readingTime": 5,
             "time": "79615",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -241,6 +245,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog2.png",
             "category": "category",
+            "readingTime": 5,
             "time": "66463",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -249,6 +254,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog3.png",
             "category": "category",
+            "readingTime": 5,
             "time": "325935",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -257,6 +263,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog2.png",
             "category": "category",
+            "readingTime": 5,
             "time": "6564",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         },
@@ -265,6 +272,7 @@
             "title": "Blog title heading will go here",
             "blog_img": "../../assets/blog/blog1.png",
             "category": "category",
+            "readingTime": 5,
             "time": "12544664651112121",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in "
         }

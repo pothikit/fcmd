@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../shared/navbar/Navbar'
+import Footer from '../shared/footer/Footer'
 
 function MainRoot() {
     return (
@@ -8,7 +9,7 @@ function MainRoot() {
             {/* navbar will go here */}
             <Navbar />
             <Outlet />
-            {/* footer */}
+            <Footer />
         </>
     )
 }
