@@ -49,7 +49,7 @@ function Blogs() {
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6 gap-y-5'>
                     {
                         blogs?.slice(0, 6).map((blog, idx) => (
-                            <div key={idx} className='border-[2px] rounded-md md:rounded-3xl'>
+                            <div key={idx} className='border border-slate-300 rounded-md md:rounded-3xl'>
                                 <img src={blog?.blog_img} alt={blog?.title} className='w-full' />
                                 <div className='p-2 md:p-6 space-y-2 md:space-y-5'>
                                     <div className='space-x-1 sm:space-x-4'>
