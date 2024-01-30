@@ -8,13 +8,13 @@ import { GrClose } from "react-icons/gr";
 function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false)
     return (
-        <nav className='bg-white shadow-md shadow-[#0303030c] py-4 px-1 fixed top-0 w-full z-50'>
+        <nav className='bg-white shadow-md shadow-[#0303030c] py-2 lg:py-4 px-1 fixed top-0 w-full z-50'>
             <div className="container mx-auto">
                 <div className='flex justify-between items-center'>
                     <div className="logo">
                         <Link to="/"><img src={logo} alt="FCMD" className='max-w-[160px]' /></Link>
                     </div>
-                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full z-50 lg:w-auto lg:bg-transparent top-20 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
+                    <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full z-50 lg:w-auto lg:bg-transparent top-16 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
                         <li>
                             <NavLink to="/" className={`md:text-lg capitalize`}>home
                             </NavLink>
@@ -25,7 +25,7 @@ function Navbar() {
                                 <span>Event</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:-left-2/3 pt-5 z-50 md:z-0'>
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:-left-2/3 pt-5 z-50'>
                                 <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
                                     <Link to="/">
                                         Upcomming Event
@@ -62,12 +62,15 @@ function Navbar() {
                         </li>
 
                         <li>
-                            <NavLink to="/" className={` md:text-lg capitalize`}>Blog</NavLink>
+                            <NavLink to="/blog" className={` md:text-lg capitalize`}>Blog</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/blog" className={` md:text-lg capitalize block md:hidden`}>About us</NavLink>
                         </li>
                     </ul>
                     <div className='space-x-5 mr-2 flex items-center'>
                         {/* navigation bar and about */}
-                        <button className='px-4 py-2 md:px-6 rounded-md bg-primary text-white hover:bg-opacity-80 duration-200'>About us</button>
+                        <button className='px-4 py-2 md:px-6 rounded-md bg-primary text-white hover:bg-opacity-80 duration-200 hidden md:block'>About us</button>
                         <button className='lg:hidden' onClick={() => { setToggleMenu(!toggleMenu) }}>
                             {
                                 !toggleMenu ?

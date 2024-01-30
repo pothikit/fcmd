@@ -5,12 +5,12 @@ import Footer from '../shared/footer/Footer'
 
 function MainRoot() {
     return (
-        <>
+        <div className='pt-12 lg:pt-16'>
             {/* navbar will go here */}
             <Navbar />
             <Outlet />
             <Footer />
-        </>
+        </div>
     )
 }
 

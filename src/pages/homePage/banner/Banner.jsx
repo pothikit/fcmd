@@ -10,7 +10,7 @@ import { Pagination } from 'swiper/modules';
 
 function Banner() {
     return (
-        <section className='min-h-[80vh] flex items-center justify-center py-10'>
+        <section className='min-h-[85vh] flex items-center justify-center py-10'>
             <div className="container mx-auto">
                 <Swiper pagination={true} autoplay={true} modules={[Pagination]} className="mySwiper">
                     <SwiperSlide>  <div className='grid lg:grid-cols-2 gap-5 items-center'>
