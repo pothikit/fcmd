@@ -65,7 +65,7 @@ function Navbar() {
                             <NavLink to="/blog" className={` md:text-lg capitalize`}>Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/blog" className={` md:text-lg capitalize block md:hidden`}>About us</NavLink>
+                            <NavLink to="/about us" className={` md:text-lg capitalize block md:hidden`}>About us</NavLink>
                         </li>
                     </ul>
                     <div className='space-x-5 mr-2 flex items-center'>
