@@ -8,7 +8,7 @@ import { GrClose } from "react-icons/gr";
 function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false)
     return (
-        <nav className='bg-white shadow-md shadow-[#0303030c] py-4 px-1'>
+        <nav className='bg-white shadow-md shadow-[#0303030c] py-4 px-1 fixed top-0 w-full z-50'>
             <div className="container mx-auto">
                 <div className='flex justify-between items-center'>
                     <div className="logo">
@@ -25,7 +25,7 @@ function Navbar() {
                                 <span>Event</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[70%] lg:-left-2/3 pt-5 z-50 md:z-0'>
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:-left-2/3 pt-5 z-50 md:z-0'>
                                 <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
                                     <Link to="/">
                                         Upcomming Event
@@ -48,7 +48,7 @@ function Navbar() {
                                 <span>Community Contributor</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[70%] lg:left-[20%] pt-5 z-50 md:z-0'>
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:left-[20%] pt-5 z-50 md:z-0'>
                                 <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
                                     <Link to="/">
                                         Commounity1

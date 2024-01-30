@@ -24,15 +24,15 @@ function Speakers() {
                         speaker?.map((speaker, idx) => (
                             <div key={idx} className='shadow-md rounded-md border overflow-hidden group cursor-pointer'>
                                 <img src={speaker?.speake_img} alt={speaker?.speakesName} className='p-1 sm:p-2 lg:p-4' style={{ paddingBottom: 0 }} />
-                                <div className='h-20 relative bg-slate-100'>
+                                <div className='h-20 relative'>
                                     <div className='absolute left-3 group-hover:left-[-300%] top-3 duration-300'>
                                         <h4 className='italic text-sm sm:text-base font-bold md:text-2xl'>{speaker?.speakesName}</h4>
                                         <h4 className='text-sm md:text-base'>{speaker?.designation}</h4>
                                     </div>
-                                    <div className='absolute left-[300%] group-hover:left-3 top-3 duration-300'>
-                                        <ul className='flex flex-col gap-2'>
-                                            <li><Link className='hover:scale-125 duration-200 flex gap-1 items-center'><FaFacebook size={20} />Profile</Link></li>
-                                            <li><Link className='hover:scale-125 duration-200 flex gap-1 items-center'><FaLinkedin size={20} />Profile</Link></li>
+                                    <div className='absolute left-[300%] group-hover:left-0 top-0 duration-300 bg-slate-100 h-full w-full flex items-center'>
+                                        <ul className='flex flex-col gap-2 ml-5'>
+                                            <li><Link className='hover:scale-105 duration-200 flex gap-1 items-center'><FaFacebook size={20} />Profile</Link></li>
+                                            <li><Link className='hover:scale-105 duration-200 flex gap-1 items-center'><FaLinkedin size={20} />Profile</Link></li>
                                         </ul>
                                     </div>
                                 </div>
