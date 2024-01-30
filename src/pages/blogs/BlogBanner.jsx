@@ -1,6 +1,7 @@
 import React from 'react'
 import './blogs.css'
 import { MdArrowBack } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 function BlogBanner() {
     return (
         <section className=''>
@@ -10,8 +11,9 @@ function BlogBanner() {
                         <div className='space-y-6'>
                             <h1 className='text-sm text-white sm:text-black sm:text-4xl font-bold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-
-                            <button className='flex items-center py-2 px-3 md:px-4 gap-3 md:py-3 rounded-md bg-primary text-white'>Read More <span className='rotate-[145deg]'><MdArrowBack size={20} color='white' /></span></button>
+                            <Link>
+                                <button className='flex items-center py-2 px-3 md:px-4 gap-3 md:py-3 rounded-md bg-primary text-white'>Read More <span className='rotate-[145deg]'><MdArrowBack size={20} color='white' /></span></button>
+                            </Link>
                         </div>
                     </div>
                 </div>

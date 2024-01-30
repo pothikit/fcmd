@@ -1,8 +1,9 @@
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 function Post({ post }) {
-    const { title, description, readingTime, category, blog_img } = post;
+    const { title, description, readingTime, category, blog_img, id } = post;
     return (
         <div className='border border-slate-300 rounded-md md:rounded-3xl'>
             <img src={blog_img} alt={title} className='w-full' />
@@ -13,7 +14,10 @@ function Post({ post }) {
                 </div>
                 <h4 className='text-sm md:text-xl lg:text-2xl font-bold py-1'>{title}</h4>
                 <p className='text-sm md:text-base'>{description}</p>
-                <button className='flex items-center gap-1 text-primary font-bold text-sm md:text-base'>Read More <IoIosArrowForward /></button>
+
+                <Link to={`/blog-details/${id}`}>
+                    <button className='flex items-center gap-1 text-primary font-bold text-sm md:text-base'>Read More <IoIosArrowForward /></button>
+                </Link>
             </div>
         </div>
     )
