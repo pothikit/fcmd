@@ -59,7 +59,7 @@ function Footer() {
                             <h2 className='text-lg font-bold mb-5'>Stay up to date</h2>
                             <form action="" className='flex flex-wrap sm:flex-nowrap gap-2'>
                                 <input type="email" placeholder='Enter your email' className='w-fullw rounded-lg p-2 bg-transparent text-white border outline-none placeholder:text-white' />
-                                <input type="submit" value="Subscribe" className='py-2 px-2 sm:px-3 bg-white text-primary rounded-lg' />
+                                <input type="submit" value="Subscribe" className='py-2 px-2 sm:px-3 bg-white text-primary rounded-lg hover:bg-opacity-90 font-semibold cursor-pointer duration-200' />
                             </form>
                             <div className='pt-10'>
                                 <h3 className='font-bold'>Web Contributor</h3>
