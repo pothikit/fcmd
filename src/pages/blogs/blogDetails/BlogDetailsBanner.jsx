@@ -8,7 +8,7 @@ import { PiLinkSimpleBold } from "react-icons/pi";
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 const BlogDetailsBanner = () => {
     return (
-        <section className=''>
+        <section className='pb-10'>
             <div className="container mx-auto">
                 <div className='md:space-y-5'>
                     <h1 className='font-bold md:text-2xl lg:text-5xl py-3 lg:py-6'>Blog title heading will</h1>
