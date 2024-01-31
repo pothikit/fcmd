@@ -1,5 +1,8 @@
 import React from 'react'
 import featuredImage from '../../../assets/images/featuredImage.png'
+import commentors from '../../../assets/images/commentors.png'
+import { PiLinkSimpleBold } from 'react-icons/pi'
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 const BlogDescription = () => {
     return (
         <section className='mt-10'>
@@ -28,6 +31,34 @@ const BlogDescription = () => {
                     <p>Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.</p>
                     <p>Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus.</p>
                     <p>Odio felis sagittis, morbi feugiat tortor vitae feugiat fusce aliquet. Nam elementum urna nisi aliquet erat dolor enim. Ornare id morbi eget ipsum. Aliquam senectus neque ut id eget consectetur dictum. Donec posuere pharetra odio consequat scelerisque et, nunc tortor.Nulla adipiscing erat a erat. Condimentum lorem posuere gravida enim posuere cursus diam.</p>
+                </div>
+                <div className='grid sm:grid-cols-2 gap-4 border-b pb-9'>
+                    <div>
+                        <strong className='mb-7 block'>Share this post</strong>
+                        <ul className='flex items-center justify-start gap-4'>
+                            <li className='size-10 bg-gray-100 flex items-center justify-center rounded-full'><PiLinkSimpleBold size={24} /></li>
+                            <li className='size-10 bg-gray-100 flex items-center justify-center rounded-full'><FaLinkedin size={24} /></li>
+                            <li className='size-10 bg-gray-100 flex items-center justify-center rounded-full'><FaTwitter size={24} /></li>
+                            <li className='size-10 bg-gray-100 flex items-center justify-center rounded-full'><FaFacebook size={24} /></li>
+                        </ul>
+                    </div>
+                    <div className='flex items-end justify-end gap-4'>
+                        <span className='py-1 px-2 text-sm bg-gray-300'>Tag one</span>
+                        <span className='py-1 px-2 text-sm bg-gray-300'>Tag two</span>
+                        <span className='py-1 px-2 text-sm bg-gray-300'>Tag three</span>
+                        <span className='py-1 px-2 text-sm bg-gray-300'>Tag four</span>
+                    </div>
+                </div>
+                {/* post comments */}
+
+                <div className='py-10'>
+                    <h1 className='text-base md:text-3xl font-semibold'>Comments (1)</h1>
+                    <div>
+                        <img src={commentors} alt="Commentors name" />
+                        <div>
+                            <h2 className='capitalize font-semibold text-base sm:text-2xl'>Davide oliver</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
