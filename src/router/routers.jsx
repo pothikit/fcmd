@@ -6,7 +6,7 @@ import {
 import MainRoot from "../layout/MainRoot";
 import Home from "../pages/homePage/Home";
 import Blogs from "../pages/blogs/Blogs";
-import BlogDetails from "../pages/blogs/BlogDetails";
+import BlogDetails from "../pages/blogs/blogDetails/BlogDetails";
 
 const router = createBrowserRouter([
     {
