@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
 import AboutBanner from './AboutBanner';
+import WhoWeAre from './WhoWeAre';
+import OurVision from './OurVision';
 
 const AboutUs = () => {
     return (
@@ -9,6 +11,8 @@ const AboutUs = () => {
                 <h2 className='flex items-center gap-3'>Home <IoIosArrowForward /> <span className='font-bold'>About Us</span></h2>
             </div>
             <AboutBanner></AboutBanner>
+            <WhoWeAre></WhoWeAre>
+            <OurVision></OurVision>
         </main>
     )
 }
