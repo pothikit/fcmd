@@ -13,7 +13,7 @@ const SponsorList = () => {
             })
     })
     return (
-        <section className='py-20'>
+        <section className='md:py-20'>
             <div className="container mx-auto">
                 <PageTitle sectionTitle="Last Year" styles="text-center my-10" coloredTittle="Sponsor List"></PageTitle>
                 <div className='grid grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6'>

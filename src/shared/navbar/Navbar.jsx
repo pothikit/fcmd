@@ -65,12 +65,14 @@ function Navbar() {
                             <NavLink to="/blog" className={` md:text-lg capitalize`}>Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about us" className={` md:text-lg capitalize block md:hidden`}>About us</NavLink>
+                            <NavLink to="/about" className={` md:text-lg capitalize block md:hidden`}>About us</NavLink>
                         </li>
                     </ul>
                     <div className='space-x-5 mr-2 flex items-center'>
                         {/* navigation bar and about */}
-                        <button className='px-4 py-2 md:px-6 rounded-md bg-primary text-white hover:bg-opacity-80 duration-200 hidden md:block'>About us</button>
+                        <NavLink to="/about">
+                            <button className='px-4 py-2 md:px-6 rounded-md bg-primary text-white hover:bg-opacity-80 duration-200 hidden md:block'>About us</button>
+                        </NavLink>
                         <button className='lg:hidden' onClick={() => { setToggleMenu(!toggleMenu) }}>
                             {
                                 !toggleMenu ?

@@ -3,6 +3,7 @@ import featuredImage from '../../../assets/images/featuredImage.png'
 import commentors from '../../../assets/images/commentors.png'
 import { PiLinkSimpleBold } from 'react-icons/pi'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6'
+import ReplayForm from './ReplayForm'
 const BlogDescription = () => {
     return (
         <section className='mt-10'>
@@ -50,16 +51,20 @@ const BlogDescription = () => {
                     </div>
                 </div>
                 {/* post comments */}
-
                 <div className='py-10'>
                     <h1 className='text-base md:text-3xl font-semibold'>Comments (1)</h1>
-                    <div>
-                        <img src={commentors} alt="Commentors name" />
+                    <div className='py-2 flex gap-5 mt-5 items-center   '>
                         <div>
+                            <img src={commentors} alt="Commentors name" className='max-w-20' />
+                        </div>
+                        <div className='md:space-y-2'>
                             <h2 className='capitalize font-semibold text-base sm:text-2xl'>Davide oliver</h2>
+                            <p>E-learning has rapidly evolved in recent years, with technology playing a crucial role in transforming traditional education systems.</p>
+                            <button className='font-bold text-primary'>Replay</button>
                         </div>
                     </div>
                 </div>
+                <ReplayForm></ReplayForm>
             </div>
         </section>
     )

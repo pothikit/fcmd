@@ -1,0 +1,5 @@
+.about-banner{
+    background: url("../../assets/images/aboutBanner.png");
+    background-position: center center;
+    background-size: cover;
+}
