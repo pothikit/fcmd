@@ -3,6 +3,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 import AboutBanner from './AboutBanner';
 import WhoWeAre from './WhoWeAre';
 import OurVision from './OurVision';
+import IntroduceTeam from './IntroduceTeam';
 
 const AboutUs = () => {
     return (
@@ -13,6 +14,7 @@ const AboutUs = () => {
             <AboutBanner></AboutBanner>
             <WhoWeAre></WhoWeAre>
             <OurVision></OurVision>
+            <IntroduceTeam></IntroduceTeam>
         </main>
     )
 }
