@@ -3,7 +3,7 @@ import axios from 'axios'
 import React from 'react'
 import Loading from '../../components/Loading'
 import { FaFacebook, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
-
+import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from 'react-icons/md';
 
 const IntroduceTeam = () => {
     const { data: team, isloaded } = useQuery({
@@ -37,6 +37,15 @@ const IntroduceTeam = () => {
                             </div>
                         ))
                     }
+                </div>
+                <div className='flex justify-center gap-2 md:gap-6 items-center mt-20'>
+                    <button className='border size-12 flex items-center justify-center rounded-md'><MdOutlineArrowBackIos /></button>
+                    <button className='border duration-200 size-12 flex items-center text-primary justify-center hover:bg-primary hover:text-white md:font-bold rounded-md border-primary'>1</button>
+                    <button className='border duration-200 size-12 flex items-center text-primary justify-center hover:bg-primary hover:text-white md:font-bold rounded-md border-primary'>2</button>
+                    <button className='border duration-200 size-12 flex items-center text-primary justify-center hover:bg-primary hover:text-white md:font-bold rounded-md border-primary'>3</button>
+                    <button className='border duration-200 size-12 flex items-center text-primary justify-center hover:bg-primary hover:text-white md:font-bold rounded-md border-primary'>4</button>
+                    <button className='border duration-200 size-12 flex items-center text-primary justify-center hover:bg-primary hover:text-white md:font-bold rounded-md border-primary'>5</button>
+                    <button className='border size-12 flex items-center justify-center rounded-md'><MdOutlineArrowForwardIos /></button>
                 </div>
             </div>
         </section>

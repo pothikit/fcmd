@@ -7,7 +7,7 @@ import IntroduceTeam from './IntroduceTeam';
 
 const AboutUs = () => {
     return (
-        <main className='min-h-screen'>
+        <main className='min-h-screen px-2 md:px-0'>
             <div className="container mx-auto py-6 mt-3">
                 <h2 className='flex items-center gap-3'>Home <IoIosArrowForward /> <span className='font-bold'>About Us</span></h2>
             </div>

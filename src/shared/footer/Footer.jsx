@@ -12,7 +12,7 @@ import { FaYoutube } from "react-icons/fa6";
 // import logo from
 function Footer() {
     const { data: contributors } = useQuery({
-        queryKey: ["contributors"],
+        queryKey: ["contributor"],
         queryFn: () => axios.get('database.json')
             .then(data => {
                 return data.data.sponsorList
