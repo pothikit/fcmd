@@ -1,8 +1,8 @@
 import React from 'react'
 import MyHelmet from '../../shared/navbar/MyHelmet'
 import { IoIosArrowForward } from "react-icons/io";
-import MostPopular from './mostPopular/MostPopular';
 import BlogBanner from './BlogBanner';
+import MostPopular from './mostPopular/MostPopular';
 
 function Blogs() {
     return (

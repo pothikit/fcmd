@@ -9,6 +9,8 @@ import Blogs from "../pages/blogs/Blogs";
 import BlogDetails from "../pages/blogs/blogDetails/BlogDetails";
 import AboutUs from "../pages/aboutUs/AboutUs";
 import AdminPanel from "../pages/dashboard/adminPanel/AdminPanel";
+import Volunteer from "../pages/dashboard/adminPanel/Volunteer";
+import BloodDoner from './../pages/dashboard/adminPanel/BloodDoner';
 
 const router = createBrowserRouter([
     {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
             {
                 path: "/admin-panel",
                 element: <AdminPanel></AdminPanel>
+            },
+            {
+                path: "/volunteer",
+                element: <Volunteer></Volunteer>
+            },
+            {
+                path: "/blood-doner",
+                element: <BloodDoner></BloodDoner>
             }
         ]
     },
