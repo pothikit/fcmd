@@ -350,5 +350,49 @@
             "linkedin": "https://linkedin.com",
             "facebook": "https://facebook.com"
         }
+    ],
+    "upCommingEvents": [
+        {
+            "id": 1,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        },
+        {
+            "id": 2,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        },
+        {
+            "id": 3,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        },
+        {
+            "id": 4,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        },
+        {
+            "id": 5,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        },
+        {
+            "id": 6,
+            "eventImg": "../../assets/images/eventsImg.png",
+            "title": "A Summit for Independent Minds and Creative Hustlers",
+            "date": "3/24/2024",
+            "discription": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
+        }
     ]
 }

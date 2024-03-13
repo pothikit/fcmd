@@ -27,7 +27,7 @@ function Navbar() {
                             </NavLink>
                             <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:-left-2/3 pt-5 z-50'>
                                 <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
-                                    <Link to="/">
+                                    <Link to="/upcomming-events">
                                         Upcomming Event
                                     </Link>
                                     <Link to="/">

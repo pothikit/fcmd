@@ -12,6 +12,7 @@ import AdminPanel from "../pages/dashboard/adminPanel/AdminPanel";
 import Volunteer from "../pages/dashboard/adminPanel/Volunteer";
 import BloodDoner from './../pages/dashboard/adminPanel/BloodDoner';
 import BloodDonnationForm from "../pages/bloodDonationForm/BloodDonnationForm";
+import UpCommingEvent from "../pages/upCommingEvent/UpCommingEvent";
 
 const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
             {
                 path: "/bloodDonation-form",
                 element: <BloodDonnationForm></BloodDonnationForm>
+            },
+            {
+                path: "/upcomming-events",
+                element: <UpCommingEvent></UpCommingEvent>
             }
         ]
     },
