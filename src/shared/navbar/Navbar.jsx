@@ -16,8 +16,7 @@ function Navbar() {
                     </div>
                     <ul className={`absolute lg:static text-white lg:text-inherit bg-primary w-full z-50 lg:w-auto lg:bg-transparent top-16 ${toggleMenu ? "left-0" : "-left-full"} duration-200 p-10 lg:p-0 lg:flex gap-8 space-y-4 lg:space-y-0 items-center`}>
                         <li>
-                            <NavLink to="/" className={`md:text-lg capitalize`}>home
-                            </NavLink>
+                            <NavLink to="/" className={`md:text-lg capitalize`}>home</NavLink>
                         </li>
                         {/* event menu */}
                         <li className='relative group border-b lg:border-0'>
@@ -25,13 +24,13 @@ function Navbar() {
                                 <span>Event</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:-left-2/3 pt-5 z-50'>
-                                <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
-                                    <Link to="/upcomming-events">
-                                        Upcomming Event
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 lg:-left-2/3 pt-5 z-50'>
+                                <div className='whitespace-nowrap flex flex-col shadow p-1 bg-primary text-white z-50 pt-3 pb-5 space-y-2'>
+                                    <Link to="/upcomming-events" className='block duration-200 hover:bg-white py-2 hover:text-primary px-5 md:px-10 font-semibold'>
+                                        Upcomming Events
                                     </Link>
-                                    <Link to="/last-events">
-                                        Last Event
+                                    <Link to="/last-events" className='block duration-200 hover:bg-white py-2 hover:text-primary px-5 md:px-10 font-semibold'>
+                                        Last Events
                                     </Link>
                                     <div className='w-8 h-8 absolute top-2 bg-slate-100 rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
                                 </div>
@@ -48,13 +47,13 @@ function Navbar() {
                                 <span>Community Contributor</span>
                                 <span><IoIosArrowDown size={20} /></span>
                             </NavLink>
-                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-[40%] lg:left-[20%] pt-5 z-50 md:z-0'>
-                                <div className='whitespace-nowrap flex flex-col gap-3 shadow p-4 bg-slate-100 text-black z-50 pt-3 pb-5 space-y-2'>
-                                    <Link to="/">
+                            <div className='absolute hidden group-hover:block group-hover:top-full duration-100 left-0 w-full lg:left-[20%] pt-5 z-50 md:z-0'>
+                                <div className='whitespace-nowrap flex flex-col gap-1 shadow p-1 bg-primary text-white z-50 pt-3 pb-5 space-y-2'>
+                                    <Link to="/" className='block hover:bg-white py-2 hover:text-primary px-5 md:px-10 font-semibold'>
                                         Commounity1
                                     </Link>
-                                    <Link to="/">
-                                        Commounity1
+                                    <Link to="/" className='block hover:bg-white py-2 hover:text-primary px-5 md:px-10 font-semibold'>
+                                        Commounity2
                                     </Link>
                                     <div className='w-8 h-8 absolute top-2 bg-slate-100 rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
                                 </div>
