@@ -13,6 +13,8 @@ import Volunteer from "../pages/dashboard/adminPanel/Volunteer";
 import BloodDoner from './../pages/dashboard/adminPanel/BloodDoner';
 import BloodDonnationForm from "../pages/bloodDonationForm/BloodDonnationForm";
 import UpCommingEvent from "../pages/upCommingEvent/UpCommingEvent";
+import LastEvent from "../pages/lastEvent/LastEvent";
+import EventDetails from "../pages/eventDetails/EventDetails";
 
 const router = createBrowserRouter([
     {
@@ -54,6 +56,14 @@ const router = createBrowserRouter([
             {
                 path: "/upcomming-events",
                 element: <UpCommingEvent></UpCommingEvent>
+            },
+            {
+                path: "/last-events",
+                element: <LastEvent></LastEvent>
+            },
+            {
+                path: "/event-details",
+                element: <EventDetails></EventDetails>
             }
         ]
     },

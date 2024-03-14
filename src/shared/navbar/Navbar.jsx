@@ -30,7 +30,7 @@ function Navbar() {
                                     <Link to="/upcomming-events">
                                         Upcomming Event
                                     </Link>
-                                    <Link to="/">
+                                    <Link to="/last-events">
                                         Last Event
                                     </Link>
                                     <div className='w-8 h-8 absolute top-2 bg-slate-100 rotate-45 -z-50 left-1/2 -translate-x-1/2'></div>
