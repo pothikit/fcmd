@@ -15,6 +15,7 @@ import BloodDonnationForm from "../pages/bloodDonationForm/BloodDonnationForm";
 import UpCommingEvent from "../pages/upCommingEvent/UpCommingEvent";
 import LastEvent from "../pages/lastEvent/LastEvent";
 import EventDetails from "../pages/eventDetails/EventDetails";
+import Registration from "../pages/registration/Registration";
 
 const router = createBrowserRouter([
     {
@@ -65,8 +66,12 @@ const router = createBrowserRouter([
                 path: "/event-details",
                 element: <EventDetails></EventDetails>
             }
-        ]
+        ],
     },
+    {
+        path: "/registration",
+        element: <Registration />
+    }
 ]);
 
 export default router
