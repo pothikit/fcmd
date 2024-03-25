@@ -394,5 +394,39 @@
             "date": "3/24/2024",
             "description": "Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium  Ignite, Inspire, and Innovate at Our Exclusive Freelancer Symposium"
         }
+    ],
+    "gallery": [
+        {
+            "id": 1,
+            "img": "../../assets/gallery/gallery (1).png"
+        },
+        {
+            "id": 2,
+            "img": "../../assets/gallery/gallery (2).png"
+        },
+        {
+            "id": 3,
+            "img": "../../assets/gallery/gallery (3).png"
+        },
+        {
+            "id": 4,
+            "img": "../../assets/gallery/gallery (4).png"
+        },
+        {
+            "id": 5,
+            "img": "../../assets/gallery/gallery (2).png"
+        },
+        {
+            "id": 6,
+            "img": "../../assets/gallery/gallery (3).png"
+        },
+        {
+            "id": 7,
+            "img": "../../assets/gallery/gallery (1).png"
+        },
+        {
+            "id": 8,
+            "img": "../../assets/gallery/gallery (4).png"
+        }
     ]
 }

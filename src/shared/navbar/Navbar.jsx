@@ -40,7 +40,7 @@ function Navbar() {
                             </div>
                         </li>
                         <li>
-                            <NavLink to="/" className={`md:text-lg capitalize`} onClick={handleOpenMenu}>
+                            <NavLink to="/photo-gallery" className={`md:text-lg capitalize`} onClick={handleOpenMenu}>
                                 Photo Gallery
                             </NavLink>
                         </li>

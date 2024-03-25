@@ -16,6 +16,7 @@ import UpCommingEvent from "../pages/upCommingEvent/UpCommingEvent";
 import LastEvent from "../pages/lastEvent/LastEvent";
 import EventDetails from "../pages/eventDetails/EventDetails";
 import Registration from "../pages/registration/Registration";
+import PhotoGallery from "../pages/photoGallery/PhotoGallery";
 
 const router = createBrowserRouter([
     {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
             {
                 path: "/event-details",
                 element: <EventDetails></EventDetails>
+            },
+            {
+                path: "/photo-gallery",
+                element: <PhotoGallery></PhotoGallery>
             }
         ],
     },
