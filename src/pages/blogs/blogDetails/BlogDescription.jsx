@@ -6,7 +6,7 @@ import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 import ReplayForm from './ReplayForm'
 const BlogDescription = () => {
     return (
-        <section className='mt-10'>
+        <section className='px-2 md:px-0'>
             <div className="max-w-[900px] mx-auto">
                 <h1 className='text-sm md:text-[40px] font-bold'>Intruductions</h1>
                 <div className='py-3 md:py-10 space-y-3 sm:space-y-6 text-sm md:text-base'>
